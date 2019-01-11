@@ -66,6 +66,19 @@ p {
     line-height: 1.4;
 }
 
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 20px 0;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 40px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
