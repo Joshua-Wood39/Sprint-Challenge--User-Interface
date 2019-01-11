@@ -79,6 +79,20 @@ nav a {
     margin: 0 40px;
 }
 
+button {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-size: 16px;
+    background: white;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -137,6 +151,26 @@ nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.border {
+    border-bottom: 1px dotted black;
+    margin: 20px 0;
+}
+
+.deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 10px;
+    width: 380px;
+}
+
+.cardBorder {
+    border-bottom: 1px dotted rgb(177, 176, 176);
 }
 
 footer {
