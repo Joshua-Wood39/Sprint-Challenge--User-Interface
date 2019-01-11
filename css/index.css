@@ -66,6 +66,33 @@ p {
     line-height: 1.4;
 }
 
+header nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 20px 0;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 40px;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 25px;
+    font-size: 16px;
+    background: white;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -126,9 +153,40 @@ p {
     padding-right: 0;
 }
 
+.border {
+    border-bottom: 1px dotted black;
+    margin: 20px 0;
+}
+
+.deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 10px;
+    width: 380px;
+}
+
+.cardBorder {
+    border-bottom: 1px dotted rgb(177, 176, 176);
+}
+
 footer {
     width: 100%;
-    background: black;
+    animation-name: morph;
+    animation-duration: 15s;
+    animation-iteration-count: inifite;
+}
+
+@keyframes morph {
+    0% {background-color: black;}
+    20% {background-color: purple;}
+    40% {background-color: red;}
+    60% {background-color: orange;}
+    80% {background-color: yellow;}
+    100% {background-color: black;}
 }
 
 footer nav {
