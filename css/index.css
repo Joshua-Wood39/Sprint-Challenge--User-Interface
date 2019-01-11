@@ -175,7 +175,18 @@ h2 {
 
 footer {
     width: 100%;
-    background: black;
+    animation-name: morph;
+    animation-duration: 15s;
+    animation-iteration-count: inifite;
+}
+
+@keyframes morph {
+    0% {background-color: black;}
+    20% {background-color: purple;}
+    40% {background-color: red;}
+    60% {background-color: orange;}
+    80% {background-color: yellow;}
+    100% {background-color: black;}
 }
 
 footer nav {
