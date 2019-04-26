@@ -177,7 +177,7 @@ footer {
     width: 100%;
     animation-name: morph;
     animation-duration: 15s;
-    animation-iteration-count: inifite;
+    animation-iteration-count: infinite;
 }
 
 @keyframes morph {
